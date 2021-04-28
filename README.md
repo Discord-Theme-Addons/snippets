@@ -1,2 +1,2 @@
 # Snippets
-A collection of snippets to be used on Discord. This repo is currently a WIP.
+A collection of CSS / SCSS snippets for Discord.
