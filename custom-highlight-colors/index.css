@@ -1,0 +1,42 @@
+:root {
+    /* mentions */
+    --mentioned-color: 250, 166, 26;
+    --mentioned-pseudo: rgba(var(--mentioned-color));
+    --background-mentioned: rgba(var(--mentioned-color), 0.05);
+    --background-mentioned-hover: rgba(var(--mentioned-color), 0.08);
+
+    /* replying */
+    --replying-color: 114, 137, 218;
+    --replying-pseudo: rgba(var(--replying-color));
+    --background-replying: rgba(var(--replying-color), 0.05);
+    --background-replying-hover: rgba(var(--replying-color), 0.08);
+
+    /* clyde */
+    --clyde-color: 114, 137, 218;
+    --clyde-pseudo: rgba(var(--clyde-color));
+    --background-clyde: rgba(var(--clyde-color), 0.05);
+    --background-clyde-hover: rgba(var(--clyde-color), 0.08);
+}
+
+#app-mount .message-2qnXI6.mentioned-xhSam7::before {
+    background-color: var(--mentioned-pseudo);
+}
+#app-mount .message-2qnXI6.replying-1x3H0T {
+    background-color: var(--background-replying);
+}
+#app-mount .message-2qnXI6.replying-1x3H0T::before {
+    background-color: var(--replying-pseudo);
+}
+#app-mount .message-2qnXI6.replying-1x3H0T:hover, 
+#app-mount .message-2qnXI6.replying-1x3H0T.selected-2P5D_Z {
+    background-color: var(--background-replying-hover);
+}
+#app-mount .message-2qnXI6.ephemeral-1PsL1r {
+    background-color: var(--background-clyde);
+}
+#app-mount .message-2qnXI6.ephemeral-1PsL1r::before {
+    background-color: var(--clyde-pseudo);
+}
+#app-mount .message-2qnXI6.ephemeral-1PsL1r:hover {
+    background-color: var(--background-clyde-hover);
+}
