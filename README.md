@@ -1,2 +1,2 @@
 # Snippets
-A collection of CSS / SCSS snippets for Discord.
+A collection of CSS / SCSS snippets that enhance Discord.

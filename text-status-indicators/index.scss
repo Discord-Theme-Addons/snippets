@@ -1,0 +1,27 @@
+:root {
+    --txt-online: #43B581;
+    --txt-dnd: #F04747;
+    --txt-idle: #FFB740;
+    --txt-offline: #747F8D;
+}
+
+.status-1XNdyw {
+    &::after {
+        font-weight: bold;
+        padding-top: 1px;
+        padding-left: 5px;
+    }
+
+    $statuses: 
+        'Online' 'ONLINE' var(--txt-online),
+        'Do Not Disturb' 'DO NOT DISTURB' var(--txt-dnd),
+        'Idle' 'IDLE' var(--txt-idle),
+        'Offline' 'OFFLINE/INVISIBLE' var(--txt-offline);
+
+    @each $label, $content, $color in $statuses {
+        &[aria-label="#{$label}"]::after {
+            content: '#{$content}';
+            color: #{$color};
+        }
+    }
+}

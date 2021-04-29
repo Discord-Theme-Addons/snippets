@@ -1,0 +1,28 @@
+:root {
+    --txt-online: #43b581;
+    --txt-dnd: #f04747;
+    --txt-idle: #ffb740;
+    --txt-offline: #747f8d;
+}
+
+.status-1XNdyw::after {
+    font-weight: bold;
+    padding-top: 1px;
+    padding-left: 5px;
+}
+.status-1XNdyw[aria-label="Online"]::after {
+    content: "ONLINE";
+    color: var(--txt-online);
+}
+.status-1XNdyw[aria-label="Do Not Disturb"]::after {
+    content: "DO NOT DISTURB";
+    color: var(--txt-dnd);
+}
+.status-1XNdyw[aria-label="Idle"]::after {
+    content: "IDLE";
+    color: var(--txt-idle);
+}
+.status-1XNdyw[aria-label="Offline"]::after {
+    content: "OFFLINE/INVISIBLE";
+    color: var(--txt-offline);
+}
