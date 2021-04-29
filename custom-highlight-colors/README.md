@@ -1,6 +1,6 @@
 # Custom Highlight Colors
 Customize mentions, replying-to and Clyde highlight colors.
-- In order to change colors, all you have to mess with is `mentioned-color`, `replying-color`, and `clyde-color`. These values are done in RGB (red, green, blue), so you can just use simple [color picker](https://www.google.com/search?q=color+picker) off of Google.
+- In order to change colors, all you have to mess with is `mentioned-color`, `replying-color`, and `clyde-color`. These values are done in RGB (red, green, blue), so you can just use a simple [color picker](https://www.google.com/search?q=color+picker) off of Google.
 
 ## Importing
 If instead you'd like to import this into your quick css, you can use
