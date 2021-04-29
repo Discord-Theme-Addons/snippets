@@ -1,53 +1,45 @@
-/*
-    * Each 1px you increase of border-length, increase left-margin 1px.
-    * Each 1px you decrease of border-length, decrease the left margin 1px.
-    * DO NOT REMOVE THE NEGATIVE SYMBOL. 
-    * You can remove these lines if you want.
-*/
-
 :root {
-    --border-length: 3px;
-    --left-margin: -7px;
+    /* Mentioned */
+    --mentioned-color: 250, 166, 26;
+    --mentioned-pseudo: rgba(var(--mentioned-color));
+    --background-mentioned: rgba(var(--mentioned-color), 0.05);
+    --background-mentioned-hover: rgba(var(--mentioned-color), 0.08);
 
-    --mentioned-border: #FAA61A;
-    --mentioned-bg: var(--background-mentioned);
-    --mentioned-bg-hover: var(--background-mentioned-hover);
-
-    --replying-border: #7289da;
-    --replying-bg: rgba(114, 137, 218, 0.05);
-    --replying-bg-hover: rgba(114, 137, 218, 0.1);
+    /* Replying */
+    --replying-color: 114, 137, 218;
+    --replying-pseudo: rgba(var(--replying-color));
+    --background-replying: rgba(var(--replying-color), 0.05);
+    --background-replying-hover: rgba(var(--replying-color), 0.08);
 }
 
-#app-mount .mentioned-xhSam7,
-#app-mount .replying-1x3H0T {
+#app-mount .message-2qnXI6.mentioned-xhSam7, 
+#app-mount .message-2qnXI6.replying-1x3H0T {
     background: transparent;
 }
-#app-mount .mentioned-xhSam7::before,
-#app-mount .replying-1x3H0T::before {
+#app-mount .message-2qnXI6.mentioned-xhSam7::before, 
+#app-mount .message-2qnXI6.replying-1x3H0T::before {
     content: none;
 }
-#app-mount .mentioned-xhSam7 .contents-2mQqc9 .messageContent-2qWWxC,
-#app-mount .replying-1x3H0T .contents-2mQqc9 .messageContent-2qWWxC {
-    border-left: solid var(--border-length);
+#app-mount .message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC, 
+#app-mount .message-2qnXI6.replying-1x3H0T .messageContent-2qWWxC {
+    border-left: solid 3px;
     border-radius: 2px;
-    padding-right: 10px;
     padding-left: 4px;
-    margin-left: var(--left-margin);
-    width: 100%;
+    margin-left: -7px;
 }
-
-#app-mount .mentioned-xhSam7 .contents-2mQqc9 .messageContent-2qWWxC {
-    background-color: var(--mentioned-bg);
-    border-color: var(--mentioned-border);
+#app-mount .message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC {
+    background-color: var(--background-mentioned);
+    border-color: var(--mentioned-pseudo);
 }
-#app-mount .mentioned-xhSam7:hover .contents-2mQqc9 .messageContent-2qWWxC {
-    background-color: var(--mentioned-bg-hover);
+#app-mount .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z .messageContent-2qWWxC, 
+#app-mount .message-2qnXI6.mentioned-xhSam7 .messageContent-2qWWxC:hover {
+    background-color: var(--background-mentioned-hover);
 }
-
-#app-mount .replying-1x3H0T .contents-2mQqc9 .messageContent-2qWWxC {
-    background-color: var(--replying-bg);
-    border-color: var(--replying-border);
+#app-mount .message-2qnXI6.replying-1x3H0T .messageContent-2qWWxC {
+    background-color: var(--background-replying);
+    border-color: var(--replying-pseudo);
 }
-#app-mount .replying-1x3H0T:hover .contents-2mQqc9 .messageContent-2qWWxC {
-    background-color: var(--replying-bg-hover);
+#app-mount .message-2qnXI6.replying-1x3H0T.selected-2P5D_Z .messageContent-2qWWxC, 
+#app-mount .message-2qnXI6.replying-1x3H0T .messageContent-2qWWxC:hover {
+    background-color: var(--background-replying-hover);
 }
