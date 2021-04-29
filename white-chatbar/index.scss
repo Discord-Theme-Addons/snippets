@@ -1,0 +1,34 @@
+:root {
+    --channeltextarea-background: #EBEDEF;
+    --text-background: #CFCFCF;
+    --text-color: #2E3338;
+    --icon-color: var(--text-color);
+}
+
+.theme-dark {
+    .channelTextArea-2VhZ6z {
+        .placeholder-37qJjk,
+        [data-slate-leaf="true"][data-offset-key] {
+            color: var(--text-color);
+            caret-color: var(--text-color);
+        }
+    
+        // Text Backgrounds
+        .spoiler-2Iew8T,
+        .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y, .after_inlineCode-1KfVgj,
+        .blockquoteDivider-2hH8H6 {
+            background-color: var(--text-background);
+        }
+    
+        // Icons
+        .attachButtonInner-PQjIyk,
+        .buttonWrapper-1ZmCpA {
+            path {
+                fill: var(--icon-color);
+            }
+        }
+        .sprite-2iCowe {
+            filter: none !important;
+        }
+    }
+}

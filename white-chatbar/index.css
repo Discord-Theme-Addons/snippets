@@ -1,0 +1,24 @@
+:root {
+    --channeltextarea-background: #ebedef;
+    --text-background: #cfcfcf;
+    --text-color: #2e3338;
+    --icon-color: var(--text-color);
+}
+
+.theme-dark .channelTextArea-2VhZ6z .placeholder-37qJjk, 
+.theme-dark .channelTextArea-2VhZ6z [data-slate-leaf="true"][data-offset-key] {
+    color: var(--text-color);
+    caret-color: var(--text-color);
+}
+.theme-dark .channelTextArea-2VhZ6z .spoiler-2Iew8T, 
+.theme-dark .channelTextArea-2VhZ6z .before_inlineCode-1G9rTK, .theme-dark .channelTextArea-2VhZ6z .inlineCode-2ngu6Y, .theme-dark .channelTextArea-2VhZ6z .after_inlineCode-1KfVgj, 
+.theme-dark .channelTextArea-2VhZ6z .blockquoteDivider-2hH8H6 {
+    background-color: var(--text-background);
+}
+.theme-dark .channelTextArea-2VhZ6z .attachButtonInner-PQjIyk path, 
+.theme-dark .channelTextArea-2VhZ6z .buttonWrapper-1ZmCpA path {
+    fill: var(--icon-color);
+}
+.theme-dark .channelTextArea-2VhZ6z .sprite-2iCowe {
+    filter: none !important;
+}
