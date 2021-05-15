@@ -1,6 +1,8 @@
 # Voice Chat BG
 Adds a custom background for when you're voice chatting.
 
+![Preview](https://discord-theme-addons.github.io/snippets/assets/screenshots/voicechat-bg.png)
+
 ## Importing
 If instead you'd like to import this into your quick css, you can use
 ```css
