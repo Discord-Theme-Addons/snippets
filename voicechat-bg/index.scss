@@ -1,0 +1,14 @@
+:root {
+    --vcb-image: url('https://discord-theme-addons.github.io/snippets/assets/background/vcb-default.png'); /* background image */
+    --vcb-background: rgb(0, 0, 0, 0.45); /* background shadowing */
+    --vcb-blur: 4px; /* background blur */
+}
+
+.callContainer-36WRfH {
+    background: var(--vcb-image) center/100% no-repeat;
+
+    .root-217Brm {
+        background-color: var(--vcb-background);
+        backdrop-filter: blur(var(--vcb-blur));
+    }
+}
