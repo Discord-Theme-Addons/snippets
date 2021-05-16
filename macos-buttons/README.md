@@ -1,5 +1,5 @@
 # macOS Buttons
-Change the Windows titlebar on Discord to match the one on macOS.
+Changes the Windows titlebar on Discord to match the one on macOS.
 
 ![preview](https://discord-theme-addons.github.io/snippets/assets/screenshots/macOS-buttons.gif)
 

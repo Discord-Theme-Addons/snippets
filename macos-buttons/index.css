@@ -1,19 +1,20 @@
 .platform-win .titleBar-AC4pGV.directionRowReverse-m8IjIq {
     position: fixed;
     z-index: 102;
+    flex-direction: row;
     width: 100%;
     height: 0;
     top: -8px;
 }
-.platform-win .title-3qD0b-.container-1r6BKw::after {
+.platform-win .titleBar-AC4pGV.directionRowReverse-m8IjIq::after {
     -webkit-app-region: drag;
     position: absolute;
     content: "";
     background: transparent;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 12px;
+    right: 0;
+    width: 1444px;
+    height: 15px;
 }
 .platform-win .layer-3QrUeG[aria-label$=SETTINGS]::after {
     -webkit-app-region: drag;
@@ -22,9 +23,9 @@
     content: "";
     background: transparent;
     top: 22px;
-    left: 0;
-    width: 100%;
-    height: 25px;
+    right: 0;
+    width: 96%;
+    height: 30px;
 }
 .platform-win .winButton-iRh8-Z {
     background-color: #2D2F32;
