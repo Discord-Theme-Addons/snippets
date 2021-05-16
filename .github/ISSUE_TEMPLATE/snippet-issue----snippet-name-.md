@@ -21,5 +21,5 @@ If applicable, add screenshots to help explain your problem.
 - Operating System:
 
 **Additional context**
-[x] I have made sure this issue has not been already reported.
-[x] I have made sure that I do not have any conflicting CSS.
+- [x] I have made sure this issue has not been already reported.
+- [x] I have made sure that I do not have any conflicting CSS.
