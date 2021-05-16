@@ -1,0 +1,69 @@
+.platform-win .titleBar-AC4pGV.directionRowReverse-m8IjIq {
+    position: fixed;
+    z-index: 102;
+    width: 100%;
+    height: 0;
+    top: -8px;
+}
+.platform-win .title-3qD0b-.container-1r6BKw::after {
+    -webkit-app-region: drag;
+    position: absolute;
+    content: "";
+    background: transparent;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12px;
+}
+.platform-win .layer-3QrUeG[aria-label$=SETTINGS]::after {
+    -webkit-app-region: drag;
+    z-index: 103;
+    position: absolute;
+    content: "";
+    background: transparent;
+    top: 22px;
+    left: 0;
+    width: 100%;
+    height: 25px;
+}
+.platform-win .winButton-iRh8-Z {
+    background-color: #2D2F32;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-right: 7px;
+    width: 12px;
+    height: 12px;
+    top: 9px;
+    left: 11px;
+}
+.platform-win .winButton-iRh8-Z svg {
+    display: none;
+}
+.platform-win.app-focused .winButtonClose-1HsbF- {
+    background-color: #FC615D;
+}
+.platform-win.app-focused .winButtonClose-1HsbF-:hover {
+    background: #FC615D url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.885 6L12 9.885L8.115 6L6 8.115L9.885 12L6 15.885L8.115 18L12 14.115L15.885 18L18 15.885L14.115 12L18 8.115L15.885 6Z" fill="black" fill-opacity="0.75"/></svg>') center/100% no-repeat;
+}
+.platform-win.app-focused .winButtonMinMax-PBQ2gm[aria-label=Minimize] {
+    background-color: #FDBC40;
+}
+.platform-win.app-focused .winButtonMinMax-PBQ2gm[aria-label=Minimize]:hover {
+    background: #FDBC40 url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.99999 11H20V13H3.99999V11Z" fill="black" fill-opacity="0.75"/></svg>') center/100% no-repeat;
+}
+.platform-win.app-focused .winButtonMinMax-PBQ2gm[aria-label=Maximize] {
+    background-color: #34C749;
+    order: 3;
+}
+.platform-win.app-focused .winButtonMinMax-PBQ2gm[aria-label=Maximize]:hover {
+    background: #34C749 url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 7H10L14 11L18 15V7Z" fill="black" fill-opacity="0.75"/><path d="M7 18H15L11 14L7 10L7 18Z" fill="black" fill-opacity="0.75"/></svg>') center/100% no-repeat;
+}
+.platform-win .wordmark-2iDDfm {
+    display: none;
+}
+.platform-win .guilds-1SWlCJ {
+    padding-top: 28px;
+}
+.platform-win .sidebar-2K8pFh {
+    border-radius: 0;
+}
